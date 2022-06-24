@@ -1,24 +1,23 @@
 --- 
-title: "Empty Book"
-author: "Warhorn Classics"
-date: "2020"
-description: "This empty book is a template for starting new Warhorn Classics book projects."
+title: "Abortion and the Church"
+author: "Evangel Presbytery"
+date: "2022"
+description: "In this work, the men of Evangel Presbytery expose the horrors of abortion, and then proceed to lay out the many arguments which exist against the practice of abortion. The concluding chapter explains the biblical foundation of what it looks like for (1) civil authorities, (2) church authorities, and (3) individuals to act and speak faithfully regarding the slaughter of the unborn. In the end, abortion will continue until the church embraces God's beautiful blessing of fruitfulness, especially in His giving of woman to be the giver of life."
 params:
-  pubinfo: "Originally published as “This Is An Empty Book” in *Warhorn Classics Anthology* (Bayly, McNeilly, Weeks, et al, 2020), 219–283."
-  scans: "https://archive.org"
+  pubinfo: "Originally published as “Abortion and the Church,” statement by Evangel Presbytery, June 24, 2022."
   build: "0"
 cover-image: "cover.jpg"
-url: "https://warhornmedia.github.io/classics-empty-book/"
+url: "https://abortion.evangelpresbytery.com/"
 output: 
   bookdown::gitbook:
     config:
       toc:
         scroll_highlight: yes
         before: |
-          <li><a href="https://classics.warhornmedia.com/"><img src="classics-template-files/images/warhornlogo.png" width="260"></a></li>
-          <li><a href="./">Empty Book — Warhorn Classics</a></li>
+          <li><a href="https://abortion.evangelpresbytery.com/"><img src="classics-template-files/images/warhornlogo.png" width="260"></a></li>
+          <li><a href="./">Abortion and the Church</a></li>
         after: |
-      edit: https://github.com/warhornmedia/classics-empty-book/edit/master/%s
+      edit: https://github.com/Evangel-Presbytery/Abortion-and-the-Church/edit/master/%s
 documentclass: book
 always_allow_html: yes
 site: bookdown::bookdown_site

@@ -1,7 +1,7 @@
 #### Text Status {-}<!--- place **Current Status** directly before the italicized name of the appropriate status, as in the template below --->
 
-0. **Current Status***Unstarted* – Empty project files created, but that's it.
-1. *Rough* – Metadata entered, computer-generated text from scans entered. Unstructured, and likely to include many errors.
+0. *Unstarted* – Empty project files created, but that's it.
+1. **Current Status***Rough* – Metadata entered, computer-generated text from scans entered. Unstructured, and likely to include many errors.
 2. *Cleaned* – Text has been structured, footnotes and endnotes linked, and extra line-breaks, hyphens, page numbers and other artifacts removed.
 3. *Complete* – Carefully proofed, including any foreign language quotes, footnotes, and endnotes. 
 

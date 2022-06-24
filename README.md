@@ -1,10 +1,7 @@
-# Title of an Empty Book
+# Abortion and the Church
 
-## Warhorn Classics
+## 2022
 
-## 2021
+Available online at:
 
-This book is a template for starting new Warhorn Classics book projects. It also contains some brief instructions for how to get started.
-
-Available for your reading pleasure here:
-https://warhornmedia.github.io/classics-empty-book
+https://abortion.evangelpresbytery.com
