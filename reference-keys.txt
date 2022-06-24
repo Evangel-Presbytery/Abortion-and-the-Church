@@ -1,2 +1,9 @@
 text-status--
-an-empty-chapter
+preface
+summary-introduction
+chapter-1.-the-bloodshed-of-the-twentieth-century
+a-grim-progression
+war
+targeting-civilians
+rulers-killing-citizens
+parents-killing-children
