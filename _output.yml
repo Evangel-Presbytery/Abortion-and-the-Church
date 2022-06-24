@@ -1,0 +1,28 @@
+bookdown::gitbook:
+  css: classics-template-files/css/warhorn-classics.css
+  split_by: rmd
+  config:
+    fontsettings:
+      theme: white
+      family: serif
+      size: 2
+    sharing:
+      facebook: yes
+      github: no
+      twitter: yes
+      linkedin: no
+      weibo: no
+      instapaper: no
+      vk: no
+      all: no
+    download: ["pdf", "epub", "mobi"]
+  includes:
+    in_header: classics-template-files/html/in_header.html
+    after_body: classics-template-files/html/after_body.html
+bookdown::pdf_book:
+  includes:
+    in_header: classics-template-files/latex/preamble.tex
+    before_body: classics-template-files/latex/before_body.tex
+  latex_engine: xelatex
+  keep_tex: yes
+bookdown::epub_book: default

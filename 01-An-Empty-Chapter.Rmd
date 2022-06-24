@@ -1,0 +1,3 @@
+# An Empty Chapter
+
+There's nothing here. If you are trying figure out what to do, please visit our [documentation page](https://warhornmedia.github.io/classics-documentation).
