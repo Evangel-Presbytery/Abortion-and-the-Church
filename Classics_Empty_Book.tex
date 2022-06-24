@@ -1,0 +1,213 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% DEFINE PHYSICAL DOCUMENT SETTINGS HD
+% media settings
+\usepackage[paperwidth=5.5in, paperheight=8.5in]{geometry}
+
+% define link colors
+\usepackage{hyperref}
+\definecolor{WarhornTeal}{RGB}{26, 169, 171}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=WarhornTeal,
+    filecolor=WarhornTeal,
+    urlcolor=WarhornTeal,
+}
+
+% Not sure what this does
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+
+% Insert book cover first and format title page after that?
+\usepackage{titling}
+\usepackage{pdfpages}
+\IfFileExists{./cover.pdf}{
+  \newcommand{\myCover}{./cover.pdf}}
+  {\IfFileExists{./cover.jpg}{
+    \newcommand{\myCover}{./cover.jpg}}
+    {\IfFileExists{./cover.png}{
+      \newcommand{\myCover}{./cover.png}}{}
+    }
+  }
+\@ifundefined{myCover}
+{}
+{
+\pretitle{\begin{center}\includepdf{\myCover}}
+\posttitle{\end{center}\setcounter{page}{0}}
+\usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
+\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+}
+\clearpage\pagenumbering{roman}
+
+% poetry styling
+\newenvironment{poetry}[0]{\par\leftskip=2em\rightskip=2em}{\par\medskip}
+
+% specify fonts
+\setmainfont{Calluna}
+\newfontfamily\greekfont[Script=Greek]{LiberationSerif}
+
+\makeatother
+
+\frontmatter
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Empty Book},
+  pdfauthor={Warhorn Classics},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Empty Book}
+\author{Warhorn Classics}
+\date{2020}
+
+\begin{document}
+\maketitle
+
+\mainmatter
+\pagenumbering{roman}
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{about-this-book}{%
+\chapter*{About this book}\label{about-this-book}}
+\addcontentsline{toc}{chapter}{About this book}
+
+Originally published as ``This Is An Empty Book'' in \emph{Warhorn Classics Anthology} (Bayly, McNeilly, Weeks, et al, 2020), 219--283.
+
+Republished by \href{https://classics.warhornmedia.com/}{Warhorn Classics}---making high-quality digital editions of classic Christian content available for free.
+
+The latest version of this book can always be found \href{https://warhornmedia.github.io/classics-empty-book/}{here} in many electronic formats for your reading convenience on any device.
+
+\hypertarget{downloads}{%
+\subsubsection*{Downloads}\label{downloads}}
+\addcontentsline{toc}{subsubsection}{Downloads}
+
+\href{https://warhornmedia.github.io/classics-empty-book//Classics_Empty_Book.pdf}{Download PDF}
+
+\href{https://warhornmedia.github.io/classics-empty-book//Classics_Empty_Book.epub}{Download ePub}
+
+\hypertarget{original}{%
+\subsubsection*{Original}\label{original}}
+\addcontentsline{toc}{subsubsection}{Original}
+
+Scanned images of this book (our authoritative source) are available \href{https://archive.org}{here}. We generally choose source texts which were published as late as possible during the author's lifetime.
+
+\hypertarget{text-status--}{%
+\subsubsection{Text Status \{-\}}\label{text-status--}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{-1}
+\tightlist
+\item
+  \textbf{Current Status}\emph{Unstarted} -- Empty project files created, but that's it.
+\item
+  \emph{Rough} -- Metadata entered, computer-generated text from scans entered. Unstructured, and likely to include many errors.
+\item
+  \emph{Cleaned} -- Text has been structured, footnotes and endnotes linked, and extra line-breaks, hyphens, page numbers and other artifacts removed.
+\item
+  \emph{Complete} -- Carefully proofed, including any foreign language quotes, footnotes, and endnotes.
+\end{enumerate}
+
+\hypertarget{editorial-notes}{%
+\subsubsection*{Editorial Notes}\label{editorial-notes}}
+\addcontentsline{toc}{subsubsection}{Editorial Notes}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Headings: Structuring this book for easier browsing required adding titles to various sections. Any heading text in {[}brackets{]} was added in the editing process.
+\item
+  If you're reading this, you can't trust the editorial notes. ;)
+\end{enumerate}
+
+For more information on our editorial commitments and process, please \href{https://classics.warhornmedia.com/editorial}{click here}.
+
+\hypertarget{support-warhorn-classics}{%
+\subsubsection*{Support Warhorn Classics}\label{support-warhorn-classics}}
+\addcontentsline{toc}{subsubsection}{Support Warhorn Classics}
+
+We hope this book is a blessing to you. If it is, please \href{https://warhornmedia.com/give}{make a one-time or recurring contribution} right now, sponsor a book from our upcoming list, or volunteer your proofreading or technical skills to help produce more content. Contact \href{mailto:lucas@beggarsborn.com}{Lucas Weeks} to get involved.
+
+\clearpage
+\setcounter{page}{1}\pagenumbering{arabic}
+
+\hypertarget{an-empty-chapter}{%
+\chapter{An Empty Chapter}\label{an-empty-chapter}}
+
+There's nothing here. If you are trying figure out what to do, please visit our \href{https://warhornmedia.github.io/classics-documentation}{documentation page}.
+
+\end{document}

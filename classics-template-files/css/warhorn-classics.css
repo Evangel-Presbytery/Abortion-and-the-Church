@@ -1,0 +1,886 @@
+html {
+	font-size: 70%;
+}
+
+body {
+	font-family: calluna-sans, Verdana, Helvetica, Helvetica Neue, sans-serif;
+	letter-spacing: .0125em;
+}
+
+/* Reduce text column width */
+.book .book-body .page-wrapper .page-inner {
+	max-width: 700px;
+}
+
+/* increase text column padding: for possibly expanding outer margin for typographical marking elements
+.book .book-body .page-wrapper .page-inner section {
+    padding-left: 30px;
+    padding-right: 30px;
+}*/
+
+/*--- COLOR PALETTE ---
+
+GLOBAL
+#1aa9ab - Warhorn Turquoise
+
+WHITE THEME
+#333 - White Theme Text
+#fff - White Theme Background
+#364149 - White Theme Menu Text
+#e7e7e7 - White Theme Footnote Rule
+
+SEPIA THEME
+#704214 - Sepia Text
+#877f6a - Sepia Menu Text
+#afa790 - Sepia Footnote Rule
+#f3eacb - Sepia Background
+darkred - Sepia Borders and Links
+
+NIGHT THEME
+#bdcadb - Night Text
+#fffffa - Night Brighter Text
+#c1c6d7 - Night Menu Text
+#bcc1d2 - Night Menu Base Text (seems to be overridden)
+#2d3143 - Night Menu Background
+#f4f4f5 - Night Brighter Menu Text
+#1c1f2b - Night Background
+#3f5061 - Night Borders (Warhorn Darker Blue)
+
+------*/
+
+
+/*--- FRONT MATTER ---*/
+
+
+#text-status ol li > strong {
+    color:#00a9ac;
+    text-transform:uppercase;
+    font-family: calluna-sans;
+    animation: currentStatus 1s infinite;
+}
+
+#text-status ol li strong:after {
+    content: "\2794";
+    font-style: normal;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@keyframes currentStatus {
+    0% {opacity: 1}
+    50% {opacity: .7}
+    100% {opacity:  1}
+}
+
+.color-theme-1 #text-status ol li > strong {
+    color: darkred;
+}
+
+
+/*--- BODY FONTS ---*/
+
+.book.font-family-0 {
+	font-family: calluna, Palatino, Times New Roman, serif;
+	font-variant-ligatures: common-ligatures;
+  	-moz-font-feature-settings: "liga", "clig";
+  	-webkit-font-feature-settings: "liga", "clig";
+  	font-feature-settings: "liga", "clig";
+}
+
+.book.font-family-1 {
+	font-family: calluna-sans, Verdana, Helvetica, Helvetica Neue, sans-serif;
+	font-variant-ligatures: common-ligatures;
+  	-moz-font-feature-settings: "liga", "clig";
+  	-webkit-font-feature-settings: "liga", "clig";
+  	font-feature-settings: "liga", "clig";
+}
+
+.center {
+	text-align: center;
+}
+
+.poetry ul {
+    list-style-type: none;
+    font-style: italic;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.poetry li p {
+    margin-bottom: 0 !important;
+}
+
+.poetry > ul > li {
+    margin-left: 3em;
+    text-indent: -3em;
+}
+
+.poetry > ul > li > ul > li {
+    margin-left: -1em;
+}
+
+/* opening line style */
+h1 + p::first-line, h2 + p::first-line {
+	/*all small caps workaround
+	text-transform: lowercase;
+	font-variant: small-caps;
+	letter-spacing:.05em;*/
+	/* actual opentype all small caps code (does not work on ::first-line because of lack of support; overflow problem)
+	font-variant-caps: all-small-caps;
+	-moz-font-feature-settings: "smcp";
+	-webkit-font-feature-settings: "smcp";
+	font-feature-settings: "smcp";*/
+}
+
+/* don't do special opening line in front-matter paragraphs */
+#header ~ div h1 + p::first-line {
+    font-variant: normal;
+    text-transform: none;
+    letter-spacing: inherit;
+}
+
+/* avoid initial oldstyle numeral */
+.section p + p::first-letter {
+        font-variant-numeric: lining-nums;
+        -moz-font-feature-settings: "lnum";
+        -webkit-font-feature-settings: "lnum";
+        font-feature-settings: "lnum";
+}
+
+.smallcaps {
+	font-variant:small-caps;
+}
+
+/* GREEK */
+
+.book.font-family-0 span:lang(el) {
+	font: 100%/1 Times New Roman, serif;
+	font: 95% Georgia;
+    font: 111%/.9 arno-pro;
+}
+
+.book.font-family-1 span:lang(el) {
+	font-family: sans-serif;
+    font: 111%/.9 arno-pro;
+    font: 92% Helvetica Neue, Helvetica;
+}
+
+/* HEADING STYLES */
+
+/*FRONT MATTER HEADINGS*/
+
+section#section-.normal {
+    overflow: visible;
+}
+
+#header { /* white/generic title header specs */
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+    top: -25px;
+    padding-bottom: 25px;
+    background-image: url("../images/title-background-white.png");
+    background-color: #1aa9ab;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    -moz-box-shadow: inset 0 0 10px 10px #1aa9ab;
+    -webkit-box-shadow: inset 0 0 10px 10px #1aa9ab;
+    box-shadow: inset 0 0 10px 10px #1aa9ab;
+}
+
+.with-summary #header {
+    width: calc(100vw - 300px);
+    left: calc(-50vw + 50% + 150px);
+}
+
+.color-theme-1 #header { /* sepia title header */
+    background-image: url("../images/title-background-sepia.png");
+    background-color: #877f6a;
+    -moz-box-shadow: inset 0 0 10px 10px #877f6a;
+    -webkit-box-shadow: inset 0 0 10px 10px #877f6a;
+    box-shadow: inset 0 0 10px 10px #877f6a;
+}
+
+.color-theme-2 #header { /* night title header */
+    background-image: url("../images/title-background-night.png");
+    background-color: #c1c6d7;
+    -moz-box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);
+    -webkit-box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);
+    box-shadow: inset 0 0 10px rgba(45, 49, 67, 40%);
+}
+
+#header h1.title, #header p.author, #header p.date, #header h2.subtitle { /* white/generic header text specs */
+    font-family: calluna, Palatino, Times New Roman, serif;
+    color: #fff;
+    margin: auto;
+    max-width: 670px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 10%);
+}
+
+.color-theme-1 #header h1.title, .color-theme-1 #header p.author, .color-theme-1 #header p.date, .color-theme-1 #header h2.subtitle { /* sepia header text specs */
+    color: #f3eacb;
+}
+
+.color-theme-2 #header h1.title, .color-theme-2 #header p.author, .color-theme-2 #header p.date, .color-theme-2 #header h2.subtitle { /* night header text specs */
+    color: #2d3143;
+}
+
+#header h1.title { /* generic title text specs */
+    padding: calc(1em + 25px) .5em .4em .5em;
+    margin-bottom: 0;
+    border: none;
+    text-transform: none;
+    font-size: 4rem;
+}
+
+#header h2.subtitle > em { /* remove generic italics from subtitle, but leave inline specified italics */
+    font-style: normal;
+}
+
+#header h2.subtitle {
+    font-size: 2rem;
+    font-weight: 400;
+    position: relative;
+    top: -.3em;
+    border: none;
+    padding-left: 1.2em;
+    padding-right: 1em;
+    letter-spacing: inherit;
+    margin-bottom: .5em;
+}
+
+#header p.author em { /* remove italics from header content; replace with small caps */
+    font-style: normal;
+    font-variant: small-caps;
+}
+
+#header p.author, #header p.date { /* generic author & date text specs */
+    text-transform: lowercase;
+    font-variant: small-caps;
+    font-style: normal;
+    font-size: 2.4rem;
+    letter-spacing: .05em;
+    text-align: right;
+    margin: auto;
+    padding-left: 1.5em;
+    padding-right: .4em;
+    padding-bottom: 1.1em;
+}
+
+#header p.author { /* white/generic title rule */
+    border-top: .15em solid rgba(255, 255, 255, 25%);
+}
+
+.color-theme-1 #header p.author { /* sepia title rule */
+    border-top: .15em solid rgba(243, 234, 203, 10%);
+}
+
+.color-theme-2 #header p.author { /* night title rule */
+    border-top: .15em solid rgba(45, 49, 67, 30%);
+}
+
+#header p.date { /* hide date from title header */
+    display: none;
+}
+
+#about-this-book h1 {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .01em;
+    text-transform: none;
+    font-variant: normal;
+    font-size: 1.2em;
+    border: none;
+}
+
+/* --- */
+
+/*BOOK BODY HEADINGS*/
+
+/* link to section link icon */
+a.anchor-section::before {
+    content: "\f0c1";
+    font-family: "Font Awesome 5 Free", FontAwesome, Helvetica, Helvetica Neue, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hasAnchor a.anchor-section:hover {
+    text-decoration: none !important;
+    opacity: 75%;
+}
+
+/* link to section tooltip */
+.hasAnchor a.anchor-section {
+    position: absolute;
+    display: inline-block;
+}
+
+.hasAnchor a.anchor-section:after {
+    content: "link to section";
+    position: absolute;
+    visibility: hidden;
+    width: 110px;
+    font-family: calluna-sans, Verdana, Helvetica, Helvetica Neue, sans-serif;
+    letter-spacing: .0125em;
+    font-size: 14px;
+    line-height: 28px;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-weight: 400;
+    background-color: #e7e7e7;
+    color: #333;
+    text-align: center;
+    padding: 0;
+    z-index: 1;
+    top: 90%; /* drop tooltip underneath link icon */
+    right: calc(-55px + 50%); /* center tooltip horizontally on link icon */
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 20%);
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.hasAnchor a.anchor-section:hover::after {
+    visibility: visible;
+    transition-delay: .5s;
+    opacity: .7;
+}
+
+h1.hasAnchor a.anchor-section {
+    font-size: .7em;
+    transform: translateY(.4em);
+}
+
+.book .book-body .page-wrapper .page-inner section.normal > div ~ div h1.hasAnchor a.anchor-section {
+    font-size: inherit;
+    transform: none;
+}
+
+.hasAnchor { /* keep tooltips from forcing horizontal scroll */
+    padding-right: 80px;
+}
+
+/*--*/
+
+h1, h2 {
+	text-wrap: balanced; /*doesn't seem to actually be supported*/
+}
+
+h1 {
+	font-family: calluna, Palatino, Times New Roman, serif;
+	border-bottom: .1em solid #1aa9ab;
+	line-height: 1;
+	padding-bottom: .5em;
+	font-weight: 400;
+	/*all small caps*/
+	text-transform: lowercase;
+	font-variant: small-caps;
+	letter-spacing: .03em;
+	/*opentype asc*/
+	/*font-variant-caps: all-small-caps;
+	-moz-font-feature-settings: "smcp";
+	-webkit-font-feature-settings: "smcp";
+	font-feature-settings: "smcp";*/
+}
+
+h1 .header-section-number {
+	display: block;
+	font-size: .67em;
+	padding-right: 0em;
+	width: 75%;
+}
+
+h2 {
+	font-weight: 700;
+	line-height: 1.5em;
+	letter-spacing: .6px;
+/*    position: relative;*/
+/*    left: -1.2em;*/
+	border-left: .2em solid #1aa9ab;
+	padding-left: 1em;
+}
+
+/*sepia mode h2 rule*/
+.book-color-theme-1 h2, .book-color-theme-2 h2 {
+	border-color: inherit;
+}
+
+/*night mode h2 rule*/
+.book-color-theme-2 h2 {
+	border-color: #3f5061;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h2 {
+	font-size: 1em;
+}
+
+h2 .header-section-number {
+	display: block;
+	font-weight: 400;
+	font-variant: small-caps;
+	text-transform: lowercase;
+	padding-right: 0em;
+	margin-top: 2em;
+	width: 75%;
+  	/*opentype asc
+    font-variant-caps: all-small-caps;
+    -moz-font-feature-settings: "smcp";
+    -webkit-font-feature-settings: "smcp";
+    font-feature-settings: "smcp";*/
+}
+
+h2 .header-section-number::before {
+	content: "Section ";
+}
+
+h3 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h3 em, .book .book-body .page-wrapper .page-inner section.normal h3 i, .book .book-body .page-wrapper .page-inner section.normal > div ~ div h1 em, .book .book-body .page-wrapper .page-inner section.normal > div ~ div h1 i {
+	font-style: normal;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h3 {
+	font-size: 1em;
+}
+
+h3 .header-section-number {
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* SERMON HEADINGS */
+
+.book .book-body .page-wrapper .page-inner section.normal > div ~ div h1 {
+    font-family: inherit;
+    font-size: 1em;
+    line-height: inherit;
+    font-style: italic;
+    font-weight: 400;
+    border: none;
+    padding-bottom: inherit;
+    text-transform: none;
+    font-variant: normal;
+    letter-spacing: inherit;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal > div ~ div h1 .header-section-number {
+    display: initial;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: 700;
+    padding-right: .5em;
+}
+
+.editorial::before {
+    content: "[";
+    font-style: normal;
+}
+
+.editorial::after {
+    content: "]";
+    font-style: normal;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal > div ~ div h1 + p::first-line, .book .book-body .page-wrapper .page-inner section.normal > div ~ div h2 + p::first-line {
+    text-transform: none;
+    font-variant: normal;
+    letter-spacing: inherit;
+}
+
+/* for subsubpoints if using h4; problem: does not correctly style first-letters as lining-nums 
+.book .book-body .page-wrapper .page-inner section.normal h4 {
+    font-size: 1em; /*set h4 to body text size
+    font-weight: 400; /*set h4 to body text weight
+    text-indent: -15px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h4::before {
+    content: "\25B8";
+    font-style: normal;
+    float: left;
+    display: inline-block;
+    width: 15px;
+    text-align: center;
+    position: relative;
+    left: -15px;
+}
+*/
+
+/* HEADER & TOC */
+.book .book-header h1 {
+	font-family: calluna, Palatino, Times New Roman, serif;
+	font-style: normal;
+	border: none;
+	padding-bottom: 0;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	letter-spacing: .1em;
+}
+
+.book .book-header, .book .book-summary {
+	font-family: calluna-sans, Verdana, Helvetica, Helvetica Neue, sans-serif;
+}
+
+.book .book-summary {
+	font-size: 16px;
+	line-height: 1em;
+}
+
+.book .book-summary ul.summary li a:hover, .book .book-summary ul.summary li.active > a {
+	color: #1aa9ab;
+}
+
+.book .book-summary ul.summary li a span, .book.color-theme-1 .book-summary ul.summary li a, .book.color-theme-1 .book-summary ul.summary li span, .book.color-theme-2 .book-summary ul.summary li a, .book.color-theme-2 .book-summary ul.summary li span {
+    color: inherit;
+}
+
+li.divider + li.chapter {
+    font-style: italic;
+}
+
+li.divider + li.chapter a:before {
+    content: "\f02d";
+    font-family: FontAwesome;
+    font-style: normal;
+    padding-right: 5px;
+}
+
+.book .book-summary ul.summary > li.chapter em {
+	font-style: normal;
+}
+
+.book .book-summary ul.summary li.chapter ul li.chapter ul li.chapter {
+	font-style: italic;
+}
+
+.book .book-summary ul.summary li.chapter b {
+	font-style: normal;
+}
+
+/*--- ALTERNATE BODY TEXT OPTIONS ---*/
+
+/*HYPHENS*/
+.book .book-body .page-wrapper .page-inner section.normal p {
+	orphans: 2;
+	widows: 2;
+	-webkit-hyphens: auto;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 4;
+    -webkit-hyphenate-limit-chars: 6 3 4;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-last: always;
+    -webkit-hyphenate-limit-zone: 8%;
+    -moz-hyphens: auto;
+    -moz-hyphenate-limit-chars: 6 3 4;
+    -moz-hyphenate-limit-lines: 2;
+    -moz-hyphenate-limit-last: always;
+    -moz-hyphenate-limit-zone: 8%;
+    -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: 6 3 4;
+    -ms-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-last: always;
+    -ms-hyphenate-limit-zone: 8%;
+    hyphens: auto;
+    hyphenate-limit-chars: 6 3 4;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;
+    hyphenate-limit-zone: 8%;
+}
+
+/* SET PARAGRAPHS TO INDENTED AND NO SPACE BETWEEN
+
+p + p, h3 + p {
+  text-indent: 1.2em;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+/*------*/
+
+
+/*--- COLOR THEME CUSTOMIZATION ---*/
+
+/* LOGO IMAGES */
+
+.book .book-summary .summary li a img {
+	background-image: url("../images/WHC-plain-white.png");
+	background-size: contain;
+}
+
+.book.color-theme-1 .summary li a img {
+	background-image: url("../images/WHC-plain-sepia.png");
+	background-size: contain;
+}
+
+.book.color-theme-2 .summary li a img {
+	background-image: url("../images/WHC-plain-night.png");
+	background-size: contain;
+}
+
+/* WHITE THEME (no class) */
+
+.book .book-body .page-wrapper .page-inner section.normal a, .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a {
+	color: #1aa9ab;
+}
+
+/* SEPIA THEME ("color-theme-1") */
+
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a {
+	color: darkred;
+}
+
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h1, .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal h2 {
+	border-color: darkred;
+}
+
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal hr {
+	background-color: #afa790;
+}
+
+/* NIGHT THEME ("color-theme-2") */
+
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h3, .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h4, .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h5, .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h6 {
+	color: inherit;
+}
+
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h1, .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal h2 {
+	border-color: #3f5061;
+}
+
+/*------*/
+
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+
+/*--- FOOTNOTES ---*/
+
+.book .book-body .page-wrapper .page-inner section.normal .footnotes ol, .book .book-body .page-wrapper .page-inner section.normal .footnotes ul {
+    padding: 0 0 0 0em;
+    margin:0 0 .85em 1.5em;
+}
+
+.footnotes li p:first-child {
+    text-indent: -1.5em;
+}
+
+ /* Restart footnote numbers for each section. Following trail of solution to request asked here: https://community.rstudio.com/t/restart-footnote-numbering-in-each-chaptering/75628/4
+*/
+
+  /* don't show the wrong footnote calls */
+  .footnote-ref sup, .footnoteRef sup {
+    display: none;
+  }
+
+  /* use a counter for footnote calls */
+  .page-inner {
+    counter-reset: fn-call;
+  }
+
+  .footnote-ref, .footnoteRef {
+    counter-increment: fn-call;
+  }
+
+  /* generate new footnote calls */
+  .footnote-ref::after, .footnoteRef::after {
+    content: counter(fn-call);
+    position: relative;
+    top: -.5em;
+    font-size: 85%;
+    line-height: 0;
+    vertical-align: baseline;
+  }
+
+  /* use a counter for footnotes numbering */
+  .footnotes ol {
+    list-style: none;
+    counter-reset: fn-number;
+  }
+
+  .footnotes li {
+    counter-increment: fn-number;
+  }
+
+  .footnotes li p:first-child::before {
+ 	content: counter(fn-number) '. ';
+	width: 1.5em;
+	float: left;
+  }
+
+/* end Restart footnote numbers for each section. */
+
+/* always apply roman, i.e., not italic, to footnote refs in text */
+.footnote-ref {
+    font-style: normal;
+}
+
+/*--- RefTagger Customization ---*/
+
+.rtTooltip {
+	max-width: 90%;
+}
+
+.rtTooltipHeader, .rtTooltipBody, .rtTooltipFooter, .rtTooltipFooter a {
+	font-family: inherit;
+}
+
+.rtLight .rtTooltipBrandLink a:hover {
+	color: #ccc;
+	text-decoration: underline;
+}
+
+.rtLight .rtTooltipMoreLink:link, .rtLight .rtTooltipMoreLink:visited {
+	color: #1aa9ab;
+}
+
+.rtLight .rtTooltipMoreLink:hover {
+	text-decoration: underline;
+}
+
+.rtTooltip, .rtTooltip a, .rtTooltipBody p, .rtTooltipBody span {
+	letter-spacing: .0125em;
+}
+
+.rtBibleRef {
+    white-space: nowrap;
+}
+
+/* SEPIA MODE */
+/*
+.color-theme-1 ~ .rtTooltip div {
+	background: #;
+	color: #;
+}
+*/
+
+.color-theme-1 ~ .rtLight .rtTooltipMoreLink:link, .color-theme-1 ~ .rtLight .rtTooltipMoreLink:visited {
+	color: darkred;
+}
+
+/* NIGHT MODE */
+.color-theme-2 ~ .rtTooltip div {
+	background: #2d3143;
+	color: #bcc1d2;
+}
+
+.color-theme-2 ~ .rtTooltip .rtTooltipHeader {
+	background: #3f5061;
+	color: #f4f4f5;
+}
+
+.color-theme-2 ~ .rtTooltip .rtTooltipSocial {
+    background: transparent;
+}
+
+.color-theme-2 ~ .rtTooltip .rtTooltipSocialIcon {
+	filter: invert(1);
+}
+
+/*------*/
+
+.nobreak {
+    white-space: nowrap;
+}
+
+/* TABLES */
+
+div.scripture-table {
+}
+
+div.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.scripture-table:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table.scripture-table {
+    width:100%;
+}
+
+table.scripture-table, table.scripture-table tr, table.scripture-table td {
+    border-width: 0 !important;
+    border-style: none !important;
+    background-color: transparent !important;
+}
+
+table.scripture-table td {
+    padding:10px;
+}
+
+/* supposed to be responsive for screens, didn't really work on iPhone…
+@media screen and (max-width: 600px) {
+    div.column {
+        width: 100%;
+    }
+}*/
+
+table {
+    border-collapse: collapse;
+    border-style: none;
+    border-width: 0;
+    border-color: none;
+    width: 100%;
+}
+
+tr, td {
+    width: auto;
+    height: auto;
+    border-style: none;
+    border-width: 0;
+    border-color: none;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow:auto;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal table td, .book .book-body .page-wrapper .page-inner section.normal table th {
+    padding: 0px .85em;
+    border:0 none none;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal table tr {
+    background-color: none;
+    border-top:0 none none;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
+    background-color:none;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal table th {
+    font-weight: 700
+}
