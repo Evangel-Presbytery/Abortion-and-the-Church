@@ -14,7 +14,7 @@ output:
       toc:
         scroll_highlight: yes
         before: |
-          <li><a href="https://abortion.evangelpresbytery.com/"><img src="classics-template-files/images/warhornlogo.png" width="260"></a></li>
+          <li><a href="https://abortion.evangelpresbytery.com/"><img src="logo.png" width="260"></a></li>
           <li><a href="./">Abortion and the Church</a></li>
         after: |
       edit: https://github.com/Evangel-Presbytery/Abortion-and-the-Church/edit/master/%s
