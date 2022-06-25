@@ -25,7 +25,6 @@ output:
           <li><a href="https://github.com/Evangel-Presbytery/Abortion-and-the-Church/raw/master/Abortion%20and%20the%20Church_Evangel%20Presbytery.pdf">Download PDF <i class="fa-solid fa-file-arrow-down"></i></a></li>
           <li><a href="https://evangelpresbytery.com">Evangel Presbytery <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
         after: |
-      edit: https://github.com/Evangel-Presbytery/Abortion-and-the-Church/edit/master/%s
 documentclass: book
 always_allow_html: yes
 site: bookdown::bookdown_site
