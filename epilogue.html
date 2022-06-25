@@ -52,8 +52,6 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
-<link rel="shortcut icon" href="evangel-favicon-196.png" />
-<script src="https://kit.fontawesome.com/c2565ebea9.js" crossorigin="anonymous"></script>
 
 
 
@@ -549,6 +547,23 @@
 <li id="fn256"><p>Richard John Neuhaus, “We Shall Not Weary, We Shall Not Rest,” speech given at the conclusion of the 2008 annual convention of National Right to Life, July 5, 2008, as published on July 11, 2008, in <em>First Things</em>, <a href="https://www.firstthings.com/web-exclusives/2008/07/we-shall-not-weary-we-shall-not-rest" class="uri">https://www.firstthings.com/web-exclusives/2008/07/we-shall-not-weary-we-shall-not-rest</a>.<a href="epilogue.html#fnref256" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
+<script type = "text/javascript">
+
+var ying = document.getElementById("fninfo");
+var truefnstart = ying.getAttribute('data-fnstart');
+var y = document.querySelector(".footnotes ol:first-of-type");
+if(typeof truefnstart !== 'undefined'){
+  y.setAttribute("start", truefnstart);
+  var footnotes = document.getElementsByClassName('footnote-ref');
+  var fn_counter = truefnstart;
+  for(var counter = 0; counter < footnotes.length; counter++){
+    footnotes[counter].innerHTML = "<sup>" + fn_counter + "</sup>";
+    fn_counter++;
+  }
+}
+
+
+</script>
             </section>
 
           </div>

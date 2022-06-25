@@ -52,8 +52,6 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
-<link rel="shortcut icon" href="evangel-favicon-196.png" />
-<script src="https://kit.fontawesome.com/c2565ebea9.js" crossorigin="anonymous"></script>
 
 
 
@@ -286,6 +284,23 @@
 <li id="fn104"><p>Philip Ney, Claudia Sheils, and Marek Gajowy, “Post-Abortion Survivor Syndrome: Signs and Symptoms,” <em>Southern Medical Journal</em> 99, no. 12 (December 2006): 1405–1406, <a href="https://doi.org/10.1097/01.smj.0000251372.56344.bf" class="uri">https://doi.org/10.1097/01.smj.0000251372.56344.bf</a>.<a href="moral-arguments.html#fnref104" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
+<script type = "text/javascript">
+
+var ying = document.getElementById("fninfo");
+var truefnstart = ying.getAttribute('data-fnstart');
+var y = document.querySelector(".footnotes ol:first-of-type");
+if(typeof truefnstart !== 'undefined'){
+  y.setAttribute("start", truefnstart);
+  var footnotes = document.getElementsByClassName('footnote-ref');
+  var fn_counter = truefnstart;
+  for(var counter = 0; counter < footnotes.length; counter++){
+    footnotes[counter].innerHTML = "<sup>" + fn_counter + "</sup>";
+    fn_counter++;
+  }
+}
+
+
+</script>
             </section>
 
           </div>

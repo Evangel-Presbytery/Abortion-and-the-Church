@@ -52,8 +52,6 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
-<link rel="shortcut icon" href="evangel-favicon-196.png" />
-<script src="https://kit.fontawesome.com/c2565ebea9.js" crossorigin="anonymous"></script>
 
 
 
@@ -216,6 +214,23 @@
 <p>You may want to try searching to find the page's new location, or use
 the table of contents to find the page you are looking for.</p>
 </div>
+<script type = "text/javascript">
+
+var ying = document.getElementById("fninfo");
+var truefnstart = ying.getAttribute('data-fnstart');
+var y = document.querySelector(".footnotes ol:first-of-type");
+if(typeof truefnstart !== 'undefined'){
+  y.setAttribute("start", truefnstart);
+  var footnotes = document.getElementsByClassName('footnote-ref');
+  var fn_counter = truefnstart;
+  for(var counter = 0; counter < footnotes.length; counter++){
+    footnotes[counter].innerHTML = "<sup>" + fn_counter + "</sup>";
+    fn_counter++;
+  }
+}
+
+
+</script>
             </section>
 
           </div>

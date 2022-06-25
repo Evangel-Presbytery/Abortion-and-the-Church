@@ -52,8 +52,6 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
-<link rel="shortcut icon" href="evangel-favicon-196.png" />
-<script src="https://kit.fontawesome.com/c2565ebea9.js" crossorigin="anonymous"></script>
 
 
 
@@ -339,6 +337,23 @@ His understanding is inscrutable.
 <li id="fn210"><p>It may also be instructive that, in each such case, the words shift from active to passive voice: the deeds of the king (for good or for ill) are expressed in active voice, while the persistence of the high places is shifted into passive voice (“were not taken away”). This may represent a lower-level criticism of the king.<a href="the-duty-of-civil-authorities.html#fnref210" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
+<script type = "text/javascript">
+
+var ying = document.getElementById("fninfo");
+var truefnstart = ying.getAttribute('data-fnstart');
+var y = document.querySelector(".footnotes ol:first-of-type");
+if(typeof truefnstart !== 'undefined'){
+  y.setAttribute("start", truefnstart);
+  var footnotes = document.getElementsByClassName('footnote-ref');
+  var fn_counter = truefnstart;
+  for(var counter = 0; counter < footnotes.length; counter++){
+    footnotes[counter].innerHTML = "<sup>" + fn_counter + "</sup>";
+    fn_counter++;
+  }
+}
+
+
+</script>
             </section>
 
           </div>

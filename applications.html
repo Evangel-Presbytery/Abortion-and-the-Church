@@ -52,8 +52,6 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
-<link rel="shortcut icon" href="evangel-favicon-196.png" />
-<script src="https://kit.fontawesome.com/c2565ebea9.js" crossorigin="anonymous"></script>
 
 
 
@@ -214,6 +212,23 @@
 <h1>Applications<a href="applications.html#applications" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>We now turn from the historical context, development, and spread of abortion, as well as its condemnation by nature, church history, common law, and Scripture, to the pressing question of what should be done by the church today to repent of this evil, and how God’s people are to work toward restoring the liberties and freedoms of our most vulnerable and innocent neighbors. What shall we do to work toward repentance and the end of abortion?</p>
 </div>
+<script type = "text/javascript">
+
+var ying = document.getElementById("fninfo");
+var truefnstart = ying.getAttribute('data-fnstart');
+var y = document.querySelector(".footnotes ol:first-of-type");
+if(typeof truefnstart !== 'undefined'){
+  y.setAttribute("start", truefnstart);
+  var footnotes = document.getElementsByClassName('footnote-ref');
+  var fn_counter = truefnstart;
+  for(var counter = 0; counter < footnotes.length; counter++){
+    footnotes[counter].innerHTML = "<sup>" + fn_counter + "</sup>";
+    fn_counter++;
+  }
+}
+
+
+</script>
             </section>
 
           </div>
