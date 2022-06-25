@@ -8,8 +8,13 @@ jobs:
   bookdown:
     runs-on: macos-11
     steps:
-      - name: call-Render-Book
-        uses: warhornmedia/custom-actions/render-classics-work@latest
+      - uses: actions/checkout@v2
+
+      - name: Setup bookdown environment
+        uses: warhornmedia/custom-actions/setup-bookdown@latest
+
+      - name: Build the book
+        uses: warhornmedia/custom-actions/build-book@latest
 
       - name: deploy to github pages
         uses: JamesIves/github-pages-deploy-action@4.0.0
