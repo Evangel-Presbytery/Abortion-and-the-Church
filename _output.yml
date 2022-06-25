@@ -1,4 +1,5 @@
 bookdown::gitbook:
+  css: abortion.css
   number_sections: false
   split_by: section
   config:
