@@ -75,7 +75,6 @@ a:hover {
 }
 
 .book .book-body .page-wrapper .page-inner section.normal .title {
-    font-weight: normal;
     text-transform: uppercase;
     letter-spacing: .05em;
     text-align: center;
