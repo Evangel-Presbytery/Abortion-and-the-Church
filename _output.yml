@@ -1,4 +1,6 @@
 bookdown::gitbook:
+  includes:
+      after_body: renumber_footnotes.html
   css: abortion.css
   number_sections: false
   split_by: section
@@ -16,5 +18,3 @@ bookdown::gitbook:
       instapaper: no
       vk: no
       all: no
-  includes:
-    in_header: in_header.html
