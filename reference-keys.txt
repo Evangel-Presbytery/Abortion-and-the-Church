@@ -1,6 +1,3 @@
-text-status--
-preface
-summary-introduction
 chapter-1.-the-bloodshed-of-the-twentieth-century
 a-grim-progression
 war
@@ -23,4 +20,11 @@ accounting-for-hormonal-birth-control-and-iuds
 accounting-for-in-vitro-fertilization
 the-total
 conclusion-genocide
+chapter-2.-abortions-assault-upon-gods-character-and-law
+a.-moral-arguments
+overthrowing-our-creators-command-against-murder
+denial-of-the-right-to-life
+the-removal-of-womans-moral-agency
+the-death-of-the-conscience
+b.-natural-law-arguments
 endnotes
