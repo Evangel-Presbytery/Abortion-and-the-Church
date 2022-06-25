@@ -1,0 +1,64 @@
+#the-bloodshed-of-the-twentieth-century > h1:first-child::before {
+    content: 'Chapter 1';
+    display: block;
+}
+
+#abortions-assault-upon-gods-character-and-law > h1:first-child::before {
+    content: 'Chapter 2';
+    display: block;
+}
+
+#applications > h1:first-child::before {
+    content: 'Chapter 3';
+    display: block;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h3 {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h1 span.header-section-number {
+    display: block;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h2.subtitle {
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h2.subtitle em {
+    font-style: normal;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p.author em {
+    font-style: normal;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p.author em::before {
+    content: '© 2022 by '
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p.author em::after {
+    content: '. All rights reserved.'
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p.date {
+    display: none;
+}
+
+.book .book-summary ul.summary li a[href="the-bloodshed-of-the-twentieth-century.html"], .book .book-summary ul.summary li a[href="abortions-assault-upon-gods-character-and-law.html"], .book .book-summary ul.summary li a[href="applications.html"] {
+    font-weight: bold;
+}
+
+.book .book-summary ul.summary li a[href="the-bloodshed-of-the-twentieth-century.html"]::before {
+    content: '1. '
+}
+
+.book .book-summary ul.summary li a[href="abortions-assault-upon-gods-character-and-law.html"]::before {
+    content: '2. '
+}
+.book .book-summary ul.summary li a[href="applications.html"]::before {
+    content: '3. '
+}
