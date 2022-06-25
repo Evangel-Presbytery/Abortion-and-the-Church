@@ -22,17 +22,3 @@ documentclass: book
 always_allow_html: yes
 site: bookdown::bookdown_site
 ---
-
-<!--- Download the classics template files if not already available -->
-```{r, include=FALSE} 
-if (!dir.exists("classics-template-files")) {
-download.file(url="https://github.com/warhornmedia/classics-template-files/archive/master.zip", destfile = "classics-template-files.zip")
-unzip(zipfile = "classics-template-files.zip", overwrite = TRUE)
-file.remove("classics-template-files.zip")
-file.rename("classics-template-files-master", "classics-template-files")
-}
-```
-
-<!--- Include the classics frontmatter in the book -->
-```{r, child='classics-template-files/rmds/classics-frontmatter.Rmd'}
-```
