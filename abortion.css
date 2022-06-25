@@ -6,6 +6,15 @@ body, .book.font-family-0 {
     font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,"Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+a {
+    color: #686868 !important;
+}
+
+a:hover {
+    color: #ceaa68 !important;
+    text-decoration: none !important;
+}
+
 .dropdown.font-settings .dropdown-menu div:nth-child(3) {
     display: none;
 }
