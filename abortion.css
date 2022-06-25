@@ -1,0 +1,34 @@
+.book .book-body .page-wrapper .page-inner section.normal h3 {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h1 span.header-section-number {
+    display: block;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h2.subtitle {
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h2.subtitle em {
+    font-style: normal;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p.author em {
+    font-style: normal;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p.author em::before {
+    content: '© 2022 by '
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p.author em::after {
+    content: '. All rights reserved.'
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p.date {
+    display: none;
+}
