@@ -1,6 +1,6 @@
 bookdown::gitbook:
   css: classics-template-files/css/warhorn-classics.css
-  split_by: rmd
+  split_by: section
   config:
     fontsettings:
       theme: white
@@ -15,7 +15,7 @@ bookdown::gitbook:
       instapaper: no
       vk: no
       all: no
-    download: ["pdf", "epub", "mobi"]
+    download: ["pdf"]
   includes:
     in_header: classics-template-files/html/in_header.html
     after_body: classics-template-files/html/after_body.html
