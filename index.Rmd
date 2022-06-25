@@ -1,5 +1,11 @@
 --- 
 title: "Abortion and the Church"
+subtitle: "For behold, the [Lord]{.smallcaps} is about to come out from His place <br>
+To punish the inhabitants of the earth for their iniquity; <br>
+And the earth will reveal her bloodshed <br>
+And will no longer cover her slain. <br>
+--Isaiah 26:21
+"
 author: "Evangel Presbytery"
 date: "2022"
 description: "In this work, the men of Evangel Presbytery expose the horrors of abortion, and then proceed to lay out the many arguments which exist against the practice of abortion. The concluding chapter explains the biblical foundation of what it looks like for (1) civil authorities, (2) church authorities, and (3) individuals to act and speak faithfully regarding the slaughter of the unborn. In the end, abortion will continue until the church embraces God's beautiful blessing of fruitfulness, especially in His giving of woman to be the giver of life."
@@ -23,11 +29,6 @@ always_allow_html: yes
 site: bookdown::bookdown_site
 ---
 
-> *For behold, the [Lord]{.smallcaps} is about to come out from His place*
-> *To punish the inhabitants of the earth for their iniquity;*
-> *And the earth will reveal her bloodshed*
-> *And will no longer cover her slain.*
-> Isaiah 26:21
 
 
 # Preface {-}
