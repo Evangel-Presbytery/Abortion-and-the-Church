@@ -52,7 +52,7 @@ This was well-known and presented a problem the medical establishment felt the n
 
 These truths, though, stood squarely in the path of the mid-century explosion of the practice of birth control so that, midway through the century, the American medical establishment undertook the project of denying these little ones were living human beings. Every scientist, physician, and mother knew conception was the beginning of life, so what was to be done?
 
-The story is recounted by the American College of Pediatricians who report that, back in 1959, a physician with ties to Planned Parenthood named Bent Böving "argued for . . . moving the date of conception from when fertilization occurs to when implantation occurs."[^14] Böving suggested "the social advantage of \[birth control\] being considered to prevent conception rather than to destroy an established pregnancy could depend upon something so simple as a prudent habit of speech."[^15]
+The story is recounted by the American College of Pediatricians who report that, back in 1959, a physician with ties to Planned Parenthood named Bent Böving "argued for . . . moving the date of conception from when fertilization occurs to when implantation occurs."[^14] Böving suggested "the social advantage of [birth control] being considered to prevent conception rather than to destroy an established pregnancy could depend upon something so simple as a prudent habit of speech."[^15]
 
 A few years later, Dr. Böving's "prudent habit of speech" was formally adopted by the American College of Obstetricians and Gynecologists who, in 1965, issued a bulletin changing the definition of conception from fertilization to implantation.[^16]
 
@@ -112,11 +112,11 @@ Yet if we place this practice under scrutiny, it becomes clear something much wo
 
 Speaking of the need to "resist prohibition" of gender-selective abortion in her chapter titled "The Case for Freedom of Choice," Warren writes:
 
-> There is great danger that the legal prohibition of sex selection would endanger other aspects of women's reproductive freedom \[including\] the right to choose abortion.[^26]
+> There is great danger that the legal prohibition of sex selection would endanger other aspects of women's reproductive freedom [including] the right to choose abortion.[^26]
 
 In her book's conclusion, Warren states:
 
-> We must not accept the argument that women who opt for sex selection \[abortion\] . . . are not making *real* choices.[^27]
+> We must not accept the argument that women who opt for sex selection [abortion] . . . are not making *real* choices.[^27]
 
 Warren's foundational principle is women's self-determination. It must take precedence over the life of the unborn child. The liberation of women is of such importance and the ability to abort one's child is so central to that liberation that even the killing of unborn children based on their sex must be legitimated to serve this commitment. Women must have the right to kill any unborn child they do not want, even if the mother doesn't want that child because she's a girl.
 
@@ -142,9 +142,9 @@ The following is from Dr. Lejeune's court testimony:
 > 
 > . . . Now, I know that there has been recent discussion of vocabulary, and I was very surprised two years ago that some of our British colleagues invented the term of pre-embryo. That does not exist, it has never existed. I was curious, and I went to the encyclopedia, to the French encyclopedia, the one I inherited from my great father so it was fifty years ago it was printed.
 > 
-> And at the term of embryo it was said: "The youngest form of a being," which is very clear and simple definition, and it stated: "it starts as one fertilized cell, (fertilized egg, which is called also zygote), and when the zygote splits in two cells, it is called a two-cell embryo. When it split in four it is called a four-cell embryo." Then it's very interesting because this terminology was accepted the world over for more than fifty years by all the specialists of the world, and we had no need at all of a sub-class which would be called a pre-embryo, because there is nothing before the embryo. Before an embryo there is a sperm and an egg, and that is it. And the sperm and an egg cannot be a pre-embryo because you cannot tell what embryo it will be, because you don't know what the sperm will go in what an egg \[*sic*\], but once it is made, you have got a zygote and when it divides it's an embryo and that's it. . . .
+> And at the term of embryo it was said: "The youngest form of a being," which is very clear and simple definition, and it stated: "it starts as one fertilized cell, (fertilized egg, which is called also zygote), and when the zygote splits in two cells, it is called a two-cell embryo. When it split in four it is called a four-cell embryo." Then it's very interesting because this terminology was accepted the world over for more than fifty years by all the specialists of the world, and we had no need at all of a sub-class which would be called a pre-embryo, because there is nothing before the embryo. Before an embryo there is a sperm and an egg, and that is it. And the sperm and an egg cannot be a pre-embryo because you cannot tell what embryo it will be, because you don't know what the sperm will go in what an egg [*sic*], but once it is made, you have got a zygote and when it divides it's an embryo and that's it. . . .
 > 
-> If we stop the process, if we slow down the movement of the molecules, we progressively come to a relative standstill, and when the embryo is frozen, these tiny human beings, they are very small, one millimeter and a half of a dimension, a sphere a millimeter and a half, you can put them in canisters by the thousands. And then with the due connotation, the fact of putting inside a 19 \[degree\] very chilly space, tiny human beings who are deprived of any liberty, of any movement, even they are deprived of time, (time is frozen for them), make them surviving, so to speak, in a suspended time, in a concentration can. It's not as hospitable and prepared to \[give\] life as would be the secret temple which is inside the female body that is a womb which is by far much better equipped physiologically, chemically, and I would say intellectually than our best laboratories for the development of a new human being. . . .
+> If we stop the process, if we slow down the movement of the molecules, we progressively come to a relative standstill, and when the embryo is frozen, these tiny human beings, they are very small, one millimeter and a half of a dimension, a sphere a millimeter and a half, you can put them in canisters by the thousands. And then with the due connotation, the fact of putting inside a 19 [degree] very chilly space, tiny human beings who are deprived of any liberty, of any movement, even they are deprived of time, (time is frozen for them), make them surviving, so to speak, in a suspended time, in a concentration can. It's not as hospitable and prepared to [give] life as would be the secret temple which is inside the female body that is a womb which is by far much better equipped physiologically, chemically, and I would say intellectually than our best laboratories for the development of a new human being. . . .
 > 
 > . . . There is no, no difficulty to understand that at the very beginning of life, the genetic information and the molecular structure of the egg, the spirit and the matter, the soul and the body must be that tightly intricated because it's a beginning of the new marvel that we call a human.
 
@@ -378,7 +378,7 @@ The following is from the University of Michigan Health website:[^61]
 
 Similar documentation is spread across the web. One prominent example is an online course in human embryology developed by the prestigious Swiss universities of Fribourg, Lausanne, and Bern. In their module 6.5, we read:
 
-Contraception can take place on three different levels: preventing oocytes from meeting sperm cells, hindering ovulation, \[or\] hindering fertilization or the implantation of the fertilized oocyte.[^62]
+Contraception can take place on three different levels: preventing oocytes from meeting sperm cells, hindering ovulation, [or] hindering fertilization or the implantation of the fertilized oocyte.[^62]
 
 The embryology course's supplementary link goes on to specify this concerning hormonal birth control:
 
