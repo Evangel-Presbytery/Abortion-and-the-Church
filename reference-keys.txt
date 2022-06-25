@@ -1,4 +1,4 @@
-chapter-1.-the-bloodshed-of-the-twentieth-century
+the-bloodshed-of-the-twentieth-century
 a-grim-progression
 war
 targeting-civilians
@@ -20,7 +20,7 @@ accounting-for-hormonal-birth-control-and-iuds
 accounting-for-in-vitro-fertilization
 the-total
 conclusion-genocide
-chapter-2.-abortions-assault-upon-gods-character-and-law
+abortions-assault-upon-gods-character-and-law
 moral-arguments
 overthrowing-our-creators-command-against-murder
 denial-of-the-right-to-life
@@ -52,7 +52,7 @@ dealing-with-common-justifications-for-abortion
 rape-and-incest
 health-of-the-mother
 clinical-callousness
-chapter-3.-applications
+applications
 the-duty-of-civil-authorities
 the-civil-ruler-and-gods-law
 keeping-our-eye-on-the-ball-understanding-the-dangers-of-incrementalism
