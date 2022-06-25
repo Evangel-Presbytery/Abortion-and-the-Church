@@ -94,6 +94,9 @@ a:hover {
 
 .book .book-body .page-wrapper .page-inner section.normal h2.subtitle em {
     font-style: normal;
+    display: inline-block;
+	width: auto;
+	text-align: left;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal p.author em {
