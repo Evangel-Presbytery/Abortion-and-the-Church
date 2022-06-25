@@ -129,3 +129,7 @@ a:hover {
 .book .book-summary ul.summary li a[href="applications.html"]::before {
     content: '3. '
 }
+
+.smallcaps, .sc, .small-caps {
+    font-variant: small-caps;
+}
