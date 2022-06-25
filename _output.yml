@@ -18,3 +18,5 @@ bookdown::gitbook:
       instapaper: no
       vk: no
       all: no
+  includes:
+    in_header: in_header.html
