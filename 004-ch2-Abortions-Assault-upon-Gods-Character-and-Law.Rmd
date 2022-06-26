@@ -260,9 +260,31 @@ Now, in 2022, in God's kind providence the unexpected has come to pass, as a maj
 
 That *Roe* has been overturned is a victory. Yet this victory must not blind Christians to what is glaringly absent in the majority opinion of *Dobbs*: the recognition of the personhood of the unborn child. Omission of this was perhaps understandable in previous ages, but as has been detailed here, the last two hundred years of scientific progress and discovery has rendered this failure inexcusable. *Dobbs* may result in repealing some of the barbarism on blatant display for the last fifty years, but it leaves us still inferior to even our recent forefathers in recognizing the personhood bestowed by God on every human being made in His image.
 
+This failure of the *Dobbs* majority is compounded by their refusal to admit the abortifacient agency of much "contraception" today. In a section of their final *Dobbs* opinion added since the Alito draft was leaked, the majority defend themselves against attacks of the dissenters who would accuse them of abandoning *stare decisis*:[^257]
+
+> [T]he dissent suggests that our decision calls into question *Griswold*, *Eisenstadt*, *Lawrence*, and *Obergefell*. But we have stated unequivocally that "[n]othing in this opinion should be understood to cast doubt on precedents that do not concern abortion." We have also explained why that is so: rights regarding contraception and same-sex relationships are inherently different from the right to abortion because the latter (as we have stressed) uniquely involves what *Roe* and *Casey* termed "potential life."[^258]
+
+This statement begs the questions, "What is abortion?" and "What is contraception?" Their use of these terms is equivocal. They claim *Griswold* has nothing to do with "abortion," but only "contraception," yet much that is commonly called "contraception" today has an abortifacient agency. In the 1972 *Eisenstadt* decision, the Supreme Court declared an unmarried person had as much right to contraception as a married person. In support of this then newly-discovered penumbra, the majority reasoned:
+
+> If the right of privacy means anything, it is the right of the *individual*, married or single, to be free from unwarranted governmental intrusion into matters so fundamentally affecting a person as the decision whether to bear or beget a child.[^259]
+
+The muddle of this reasoning (the fundamental right to decide whether to become pregnant with a child or whether, once pregnant, to continue carrying that child) has ascended to the *Dobbs* pantheon of untouchable precedent. Surely the *Dobbs* majority know---armed as they are with the best Ivy League pedigrees, the best law clerks, the best libraries, and briefs by the most skilled litigators---that certain contraceptive methods have abortifacient properties. *Roe* is gone, but chemical abortifacients will continue to do their deadly work under the faded banner of the Court's contraception precedents.
+
+Earlier in the opinion, Justice Alito writes:
+
+> The most striking feature of the dissent is the absence of any serious discussion of the legitimacy of the States' interest in protecting fetal life. This is evident in the analogy that the dissent draws between the abortion right and the rights recognized in *Griswold* (contraception). . . . [T]he dissent's analogy is objectionable for . . . what it reveals about the dissent's views on the protection of what *Roe* called "potential life." The exercise of the rights at issue in Griswold . . . does not destroy a "potential life," but an abortion has that effect.
+
+Here the majority point out that "the dissent evinces no similar regard for a State's interest in protecting prenatal life," adding "the viability line" upon which *Roe v. Wade* was based "makes no sense. It was not adequately justified in *Roe*, and the dissent does not even try to defend it today. Nor does it identify any other point in a pregnancy after which a State is permitted to prohibit the destruction of a fetus."
+
+Finally, we read this stunning declaration:
+
+> Our opinion is not based on any view about if and when prenatal life is entitled to any of the rights enjoyed after birth. The dissent, by contrast, would impose on the people a particular theory about when the rights of personhood begin. According to the dissent, the Constitution *requires* the States to regard a fetus as lacking even the most basic human right---to live---at least until an arbitrary point in a pregnancy has passed.[^260]
+
+Our justices bear the sword and thus hold the power, after the exercise of due process, to deprive a man of his life. Yet, these same justices feign to be impotent or ignorant in recognizing when a man's life begins. Our Court, instead, should have built their opinion on the rock of personhood beginning at the moment of conception. A man enjoys a right to life from the moment of conception. It's no theory or philosophy. It's a simple truth that not even the Beltway and all its pomps can efface. The Court should have done its duty and recognized an unborn child's right to life from the moment of conception.
+
 ## The Witness of Church History
 
-<div id="fninfo" data-fnstart="50"></div>
+<div id="fninfo" data-fnstart="54"></div>
 
 As Protestants, we hold that only the testimony of Scripture is infallible. Yet not all areas of Scripture are equally clear, so there has been significant variation in many areas of doctrine across the history of the church. But on the matter of abortion, this has not been so. For over two thousand years, there has been unanimity in declaring abortion a grave evil and crime.
 
@@ -316,7 +338,7 @@ From ancient times down to the present day, the position of the church across al
 
 ## The Testimony of Scripture
 
-<div id="fninfo" data-fnstart="63"></div>
+<div id="fninfo" data-fnstart="67"></div>
 
 Leaving all other arguments to the side, Scripture's authority is absolute. Scripture is not the word of man, but the Word of God. We must submit our judgments concerning abortion to Scripture, where the duty of God's people to uphold His image placed in mankind is everywhere revealed, both implicitly and explicitly.
 
@@ -604,7 +626,7 @@ Given how close the *Didache* is in date, vocabulary, and style to the New Testa
 
 ## Dealing with Common Justifications for Abortion
 
-<div id="fninfo" data-fnstart="91"></div>
+<div id="fninfo" data-fnstart="95"></div>
 
 ### Rape and Incest
 
@@ -927,7 +949,7 @@ Walking by faith includes pregnancy and childbirth. God loves our little ones mo
 
 [^163]: Mary Elizabeth Williams, "So What If Abortion Ends Life?" *Salon*, January 23, 2013, https://www.salon.com/2013/01/23/so_what_if_abortion_ends_life/.
 
-[^164]: October 4, 2010, https://www.huffpost.com/entry/harvest-rites-blood-for-b_b\_746169.
+[^164]: October 4, 2010, https://www.huffpost.com/entry/harvest-rites-blood-for-b_b_746169.
 
 [^165]: Cyril of Alexandria, *Catechetical Lectures* 12.25--26, trans. Edwin Hamilton Gifford.
 
@@ -1030,3 +1052,11 @@ Walking by faith includes pregnancy and childbirth. God loves our little ones mo
     The moderator responded, "No what? Are you saying this summary of your position isn't accurate?"
 
     She responded, "Yes! We are *not* saying it's *not* a life. We are saying the woman has a right to have an abortion *whether or not it's a life*!"
+
+[^257]: *Stare decisis*: "a doctrine or policy of following rules or principles laid down in previous judicial decisions unless they contravene the ordinary principles of justice." *Merriam-Webster.com Dictionary*, Merriam-Webster, https://www.merriam-webster.com/dictionary/stare%20decisis.
+
+[^258]: *Dobbs*, 2022 WL 2276808, at \*39 (slip op. at 71).
+
+[^259]: *Eisenstadt v. Baird*, 405 US 438, 453 (1972). Emphasis original.
+
+[^260]: *Dobbs*, 2022 WL 2276808, at \*23 (slip op. at 37--38). Emphasis original.
