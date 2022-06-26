@@ -24,12 +24,12 @@ body, .book.font-family-0 {
     font-weight: bold;
 }
 
-.book .book-summary .summary > li:nth-child(3) a::after {
+.pdf-download::after {
     content: '\00a0\f15b';
     font-family: "Font Awesome 5 Free", FontAwesome, Helvetica, Helvetica Neue, sans-serif;
 }
 
-.book .book-summary .summary > li:nth-child(4) a::after {
+.external-link::after {
     content: '\00a0\f08e';
     font-family: "Font Awesome 5 Free", FontAwesome, Helvetica, Helvetica Neue, sans-serif;
 }
