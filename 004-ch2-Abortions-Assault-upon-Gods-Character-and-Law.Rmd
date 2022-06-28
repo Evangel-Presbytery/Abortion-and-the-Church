@@ -272,7 +272,7 @@ The muddle of this reasoning (the fundamental right to decide whether to become 
 
 Earlier in the opinion, Justice Alito writes:
 
-> The most striking feature of the dissent is the absence of any serious discussion of the legitimacy of the States' interest in protecting fetal life. This is evident in the analogy that the dissent draws between the abortion right and the rights recognized in *Griswold* (contraception). . . . [T]he dissent's analogy is objectionable for . . . what it reveals about the dissent's views on the protection of what *Roe* called "potential life." The exercise of the rights at issue in Griswold . . . does not destroy a "potential life," but an abortion has that effect.
+> The most striking feature of the dissent is the absence of any serious discussion of the legitimacy of the States' interest in protecting fetal life. This is evident in the analogy that the dissent draws between the abortion right and the rights recognized in *Griswold* (contraception). . . . [T]he dissent's analogy is objectionable for . . . what it reveals about the dissent's views on the protection of what *Roe* called "potential life." The exercise of the rights at issue in *Griswold* . . . does not destroy a "potential life," but an abortion has that effect.
 
 Here the majority point out that "the dissent evinces no similar regard for a State's interest in protecting prenatal life," adding "the viability line" upon which *Roe v. Wade* was based "makes no sense. It was not adequately justified in *Roe*, and the dissent does not even try to defend it today. Nor does it identify any other point in a pregnancy after which a State is permitted to prohibit the destruction of a fetus."
 
