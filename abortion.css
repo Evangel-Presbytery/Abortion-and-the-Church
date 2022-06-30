@@ -38,14 +38,14 @@ body, .book.font-family-0 {
     font-style: italic;
 }
 
-/* Fix header overlap on mobile */
+/* Fix header overlap on mobile --doesn't quite work yet…-- 
 
 @media screen and (max-width: 600px) {
     .book .book-body.fixed .page-inner {
         position: relative;
         top: 50px;
     }
-}
+}*/
 
 a.anchor-section::before {
     content: "\f0c1";
