@@ -38,6 +38,14 @@ body, .book.font-family-0 {
     font-style: italic;
 }
 
+/* Fix header overlap on mobile */
+
+@media screen and (max-width: 600px) {
+    .book .book-body.fixed {
+        top: 50px;
+    }
+}
+
 a.anchor-section::before {
     content: "\f0c1";
     font-family: "Font Awesome 5 Free", FontAwesome, Helvetica, Helvetica Neue, sans-serif;
