@@ -25,6 +25,7 @@ output:
           <li><a class="pdf-download" href="https://github.com/Evangel-Presbytery/Abortion-and-the-Church/raw/master/Abortion%20and%20the%20Church_Evangel%20Presbytery.pdf">Download PDF</a></li>
           <li><a class="external-link" href="https://evangelpresbytery.com">Evangel Presbytery</a></li>
         after: |
+          <li>© 2022 by <a href="https://evangelpresbytery.com">Evangel Presbytery</a>. All rights reserved.</li>
 documentclass: book
 always_allow_html: yes
 site: bookdown::bookdown_site
