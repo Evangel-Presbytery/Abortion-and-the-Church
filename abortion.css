@@ -41,7 +41,8 @@ body, .book.font-family-0 {
 /* Fix header overlap on mobile */
 
 @media screen and (max-width: 600px) {
-    .book .book-body.fixed {
+    .book .book-body.fixed .page-inner {
+        position: relative;
         top: 50px;
     }
 }
