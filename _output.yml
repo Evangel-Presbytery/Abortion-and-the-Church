@@ -20,6 +20,3 @@ bookdown::gitbook:
       instapaper: no
       vk: no
       all: no
-  favicon: evangel-favicon-196.png
-  apple-touch-icon: evangel-apple-icon.png
-
