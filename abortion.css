@@ -38,6 +38,10 @@ body, .book.font-family-0 {
     font-style: italic;
 }
 
+#publication-information > h1:first-child {
+    display: none;
+}
+
 /* Fix header overlap on mobile --doesn't quite work yet…-- 
 
 @media screen and (max-width: 600px) {
