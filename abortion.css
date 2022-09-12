@@ -38,8 +38,16 @@ body, .book.font-family-0 {
     font-style: italic;
 }
 
+#publication-information {
+    margin-top: 2em;
+}
+
 #publication-information > h1:first-child {
     display: none;
+}
+
+#publication-information a {
+    text-decoration: underline;
 }
 
 /* Fix header overlap on mobile --doesn't quite work yet…-- 
