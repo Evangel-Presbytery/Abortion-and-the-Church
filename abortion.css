@@ -112,17 +112,17 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: .05em;
     text-align: center;
-    background-image: url("./Abortion_cvr3_web-version.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
-    max-width: 500px;
-    height: 190px;
-    margin: auto;
+    display: none;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal .title em {
-    display: none;
+.titleContainer {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#title-image {
+    max-width: 400px;
+    height: auto;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal .author {
