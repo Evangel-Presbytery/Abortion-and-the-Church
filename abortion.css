@@ -121,8 +121,14 @@ a:hover {
 }
 
 #title-image {
-    max-width: 100%;
+    max-width: 400px;
     height: auto;
+}
+
+@media screen and (max-width: 400px) {
+    #title-image {
+        max-width: 100%;
+    }
 }
 
 .book .book-body .page-wrapper .page-inner section.normal .author {
