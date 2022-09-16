@@ -123,6 +123,7 @@ a:hover {
     font-weight: normal;
     font-style: normal;
     text-align: center;
+    display: none;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal h2.subtitle em {
@@ -132,16 +133,36 @@ a:hover {
 	text-align: left;
 }
 
+.epigraphContainer {
+    text-align: center;
+}
+
+.epigraphContent {
+    display: inline-block;
+    text-align: left;
+    width: auto;
+}
+
+.epigraph {
+    padding-left: 2em;
+    text-indent: -2em;
+}
+
+.epigraphCite {
+    text-align: right;
+}
+
+.epigraphCite {
+    text-align: right;
+    width: auto;
+    display: inline-block;
+}
+
 .book .book-body .page-wrapper .page-inner section.normal p.author em {
     font-style: normal;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal p.author em::before {
-    content: '© 2022 by '
-}
-
-.book .book-body .page-wrapper .page-inner section.normal p.author em::after {
-    content: '. All rights reserved.'
+    text-transform: uppercase;
+    fonts-size: 1.2em;
+    letter-spacing: .05em;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal p.date {
