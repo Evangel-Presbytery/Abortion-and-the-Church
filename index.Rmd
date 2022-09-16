@@ -30,6 +30,10 @@ site: bookdown::bookdown_site
 
 # Publication Information {.unlisted .unnumbered}
 
+<div class="titleContainer">
+<img id="title-image" src="./Abortion_cvr3_web-version.png" alt="Abortion and the Church">
+</div>
+
 <div class="epigraphContainer">
 <div class="epigraphContent">
 <p class="epigraph">For behold, the [Lord]{.smallcaps} is about to come out from His place</p>
