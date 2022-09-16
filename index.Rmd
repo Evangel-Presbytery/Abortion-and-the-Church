@@ -36,11 +36,11 @@ site: bookdown::bookdown_site
 <p class="epigraph">To punish the inhabitants of the earth for their iniquity;</p>
 <p class="epigraph">And the earth will reveal her bloodshed</p>
 <p class="epigraph">And will no longer cover her slain.</p>
-<p class="epigraphCite">—Isaiah 26:21</p>
+<p class="epigraphCite">Isaiah 26:21</p>
 </div>
 </div>
 
-© 2022 by Evangel Presbytery. All rights reserved.
+© 2022 by [Evangel Presbytery](https://evangelpresbytery.com). All rights reserved.
 
 Unless otherwise indicated, all Scripture quotations are from the NEW AMERICAN STANDARD BIBLE®, ©\ 1960, 1962, 1963, 1968, 1971, 1972, 1973, 1975, 1977, 1995 by The Lockman Foundation. Used by permission.
 

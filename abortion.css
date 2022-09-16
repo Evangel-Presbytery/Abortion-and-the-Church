@@ -135,6 +135,7 @@ a:hover {
 
 .epigraphContainer {
     text-align: center;
+	margin-bottom: 1em;
 }
 
 .epigraphContent {
@@ -146,23 +147,21 @@ a:hover {
 .epigraph {
     padding-left: 2em;
     text-indent: -2em;
-}
-
-.epigraphCite {
-    text-align: right;
+	margin-bottom: 0 !important;
 }
 
 .epigraphCite {
     text-align: right;
     width: auto;
-    display: inline-block;
+	font-style: italic;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal p.author em {
     font-style: normal;
     text-transform: uppercase;
-    fonts-size: 1.2em;
+    font-size: 1.2em;
     letter-spacing: .05em;
+	display: none;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal p.date {
