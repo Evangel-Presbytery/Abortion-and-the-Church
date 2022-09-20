@@ -6,6 +6,9 @@ bookdown::gitbook:
   number_sections: false
   split_by: section
   mathjax: NULL
+  pandoc_args:
+    - --lua-filter=filters/filter_reader_wrap_section_intro.lua
+    - --lua-filter=filters/filter_reader_mark_content.lua
   config:
     fontsettings:
       theme: white
