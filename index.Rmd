@@ -49,7 +49,7 @@ site: bookdown::bookdown_site
 Unless otherwise indicated, all Scripture quotations are from the NEW AMERICAN STANDARD BIBLE®, ©\ 1960, 1962, 1963, 1968, 1971, 1972, 1973, 1975, 1977, 1995 by The Lockman Foundation. Used by permission.
 
 **ISBN-13**  
-Paperback: 978-1-940017-54-9 (available from [Warhorn Media](https://warhornmedia.com/product/abortion-and-the-church/)) 
+Paperback: 978-1-940017-54-9 (available from [Warhorn Media](https://warhornmedia.com/product/abortion-and-the-church/))  
 Spiral: 978-1-940017-46-4  
 PDF: 978-1-940017-47-1 (<a href="./Ebook-Downloads/Abortion%20and%20the%20Church_Evangel%20Presbytery.pdf">Download PDF</a>)  
 EPUB: 978-1-940017-48-8 (<a href="./Ebook-Downloads/Abortion-and-the-Church.epub">Download EPUB</a>)  
