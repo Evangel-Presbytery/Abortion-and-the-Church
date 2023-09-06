@@ -44,15 +44,19 @@ site: bookdown::bookdown_site
 </div>
 </div>
 
-© 2022 by [Evangel Presbytery](https://evangelpresbytery.com). All rights reserved.
+© 2022 by [Evangel Presbytery](https://evangelpresbytery.com). All rights reserved. Paperback redesign published 2023.
 
 Unless otherwise indicated, all Scripture quotations are from the NEW AMERICAN STANDARD BIBLE®, ©\ 1960, 1962, 1963, 1968, 1971, 1972, 1973, 1975, 1977, 1995 by The Lockman Foundation. Used by permission.
 
 **ISBN-13**  
-Spiral: 978-1-940017-46-4 (available from [Warhorn Media](https://warhornmedia.com/product/abortion-and-the-church/))  
+Paperback: 978-1-940017-54-9 (available from [Warhorn Media](https://warhornmedia.com/product/abortion-and-the-church/)) 
+Spiral: 978-1-940017-46-4  
 PDF: 978-1-940017-47-1 (<a href="./Ebook-Downloads/Abortion%20and%20the%20Church_Evangel%20Presbytery.pdf">Download PDF</a>)  
 EPUB: 978-1-940017-48-8 (<a href="./Ebook-Downloads/Abortion-and-the-Church.epub">Download EPUB</a>)  
 Kindle: 978-1-940017-49-5 (Download <a href="./Ebook-Downloads/Abortion-and-the-Church.mobi">Mobi</a>, <a href="./Ebook-Downloads/Abortion-and-the-Church.azw3">AZW3</a>, or <a href="./Ebook-Downloads/Abortion-and-the-Church.kfx">KFX</a>)
+
+**Library of Congress Control Number**
+2023910951
 
 A free audio version of this book is available [here](https://abortion-and-the-church.transistor.fm/).
 
