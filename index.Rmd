@@ -8,7 +8,7 @@ params:
   build: "0"
 cover-image: "cover.jpg"
 url: "https://abortion.evangelpresbytery.com/"
-favicon: "evangel-favicon-196.png"
+favicon: "evangel-favicon-196.ico"
 apple-touch-icon: "evangel-apple-icon.png"
 output: 
   bookdown::gitbook:
