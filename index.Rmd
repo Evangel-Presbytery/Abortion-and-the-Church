@@ -6,7 +6,7 @@ description: "In this work, the men of Evangel Presbytery expose the horrors of 
 params:
   pubinfo: "Originally published as “Abortion and the Church,” statement by Evangel Presbytery, June 24, 2022."
   build: "0"
-cover-image: "https://raw.githubusercontent.com/Evangel-Presbytery/Abortion-and-the-Church/master/cover.jpg"
+cover-image: "cover.jpg"
 url: "https://abortion.evangelpresbytery.com/"
 favicon: "evangel-favicon-196.png"
 apple-touch-icon: "evangel-apple-icon.png"
