@@ -43,7 +43,7 @@ body, .book.font-family-0 {
 }
 
 .book .book-summary ul.summary li.Buy-Button a {
-    margin: 0px 15px;
+    margin: 10px 15px;
 }
 
 .Buy-Button a:hover, .Buy-Button a:active {
