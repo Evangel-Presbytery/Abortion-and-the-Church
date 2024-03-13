@@ -29,6 +29,31 @@ body, .book.font-family-0 {
     font-weight: bold;
 }
 
+.Buy-Button a {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    color: white !important;
+    background-color: #ceaa68 !important;
+    padding: 6px 13px 7px 13px !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: #ceaa68 !important;
+    display: inline-block !important;
+}
+
+.book .book-summary ul.summary li.Buy-Button a {
+    margin: 0px 15px;
+}
+
+.Buy-Button a:hover, .Buy-Button a:active {
+    background-color: transparent !important;
+    color: #686868 !important;
+    transition: background-color ease .3s;
+    text-decoration: none !important;
+    position: relative;
+}
+
 .pdf-download::after {
     content: '\00a0\f15b';
     font-family: "Font Awesome 5 Free", FontAwesome, Helvetica, Helvetica Neue, sans-serif;
